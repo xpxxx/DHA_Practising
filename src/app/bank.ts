@@ -1,6 +1,6 @@
 import type { Bank, Question } from './types'
 
-const SAMPLE_URL = `${import.meta.env.BASE_URL}data/questions.sample.json`
+const SAMPLE_URL = new URL('data/questions.sample.json', import.meta.env.BASE_URL).toString()
 
 export async function loadBank(): Promise<Bank> {
   const res = await fetch(SAMPLE_URL, { cache: 'no-store' })
