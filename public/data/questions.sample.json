@@ -1,0 +1,109 @@
+{
+  "questions": [
+    {
+      "id": "fund-001",
+      "prompt": {
+        "en": "Explain the clinical meaning of Yin–Yang in pattern differentiation, and give one simple example.",
+        "zh": "请解释“阴阳”在临床辨证中的意义，并给出一个简单例子。"
+      },
+      "keyPoints": [
+        {
+          "en": "Yin–Yang is a framework of dynamic balance to summarize functional and pathological tendencies.",
+          "zh": "阴阳是动态平衡的框架，用于概括机体功能与病理倾向。"
+        },
+        {
+          "en": "In practice, relate it to cold/heat, deficiency/excess, interior/exterior to describe predominant Yin or Yang.",
+          "zh": "可结合寒热、虚实、表里等维度归纳阴阳偏盛/偏衰。"
+        },
+        {
+          "en": "Example: Yang deficiency often shows cold intolerance and cold limbs; Yin deficiency often shows dryness and deficient heat.",
+          "zh": "例：阳虚常见畏寒肢冷；阴虚常见口燥咽干、虚热。"
+        }
+      ],
+      "tags": ["yin_yang", "tcm_basics", "pattern_id"],
+      "difficulty": 1,
+      "domain": "fundamentals",
+      "followUps": ["fund-002"],
+      "source": { "type": "pdf", "file": "DHA_TCM_Interview_Bank.pdf", "page": 3 },
+      "updatedAt": "2026-04-13T00:00:00.000Z"
+    },
+    {
+      "id": "fund-002",
+      "prompt": {
+        "en": "How would you explain the difference between Yin deficiency and Yang deficiency to a patient using plain language?",
+        "zh": "如何向患者解释“阴虚”和“阳虚”的区别，避免使用太多术语？"
+      },
+      "keyPoints": [
+        {
+          "en": "Use simple metaphors (e.g., warmth/energy vs moisture/cooling) rather than technical terms.",
+          "zh": "用通俗比喻解释（例如“温煦动力”与“滋润降温”）。"
+        },
+        {
+          "en": "Yin deficiency tends toward dryness and deficient heat; Yang deficiency tends toward low warmth/energy and cold intolerance.",
+          "zh": "阴虚偏津液不足、易虚热；阳虚偏温煦不足、易怕冷。"
+        },
+        {
+          "en": "Emphasize that diagnosis needs an overall assessment; avoid self-diagnosis.",
+          "zh": "强调需综合症状体征判断，避免自我诊断。"
+        }
+      ],
+      "tags": ["communication", "yin_yang", "documentation"],
+      "difficulty": 2,
+      "domain": "communication",
+      "source": { "type": "pdf", "file": "DHA_TCM_Interview_Bank.pdf", "page": 4 },
+      "updatedAt": "2026-04-13T00:00:00.000Z"
+    },
+    {
+      "id": "diag-001",
+      "prompt": {
+        "en": "In the Four Examinations, how do you assess the tongue systematically, and what key elements do you document?",
+        "zh": "四诊中，如何系统进行舌诊？你会记录哪些要点？"
+      },
+      "keyPoints": [
+        {
+          "en": "Document color, shape, coating (thick/thin, moist/dry, greasy), coating color, and fluids.",
+          "zh": "记录舌色、形态、苔质（厚薄/润燥/腻腐）、苔色与津液。"
+        },
+        {
+          "en": "Observe under natural light; avoid confounders like recent food or toothbrushing.",
+          "zh": "尽量自然光下观察，避免刚进食/刷牙影响。"
+        },
+        {
+          "en": "Use objective descriptions (e.g., pale, swollen, teeth marks, white greasy coating) and correlate with other findings.",
+          "zh": "客观描述（如“舌淡胖边齿痕，苔白腻”），并与其他诊察互相印证。"
+        }
+      ],
+      "tags": ["four_exams", "pattern_id", "documentation"],
+      "difficulty": 2,
+      "domain": "diagnosis",
+      "source": { "type": "pdf", "file": "DHA_TCM_Interview_Bank.pdf", "page": 7 },
+      "updatedAt": "2026-04-13T00:00:00.000Z"
+    },
+    {
+      "id": "safety-001",
+      "prompt": {
+        "en": "If you identify red flags or a suspected emergency (e.g., chest pain with sweating, sudden hemiparesis), how do you handle it in clinic?",
+        "zh": "遇到疑似急症或红旗征象（例如胸痛伴大汗、突发偏瘫），你在门诊应如何处理？"
+      },
+      "keyPoints": [
+        {
+          "en": "Stop non-essential interventions and prioritize immediate risk assessment.",
+          "zh": "立即停止治疗性操作，优先评估紧急风险。"
+        },
+        {
+          "en": "Recommend and facilitate urgent referral/EMS according to local policy, and communicate clearly with patient/family.",
+          "zh": "按当地规范建议/协助转急诊或呼叫急救，并清晰沟通。"
+        },
+        {
+          "en": "Document timeline, findings, advice, and referral destination; do not delay care.",
+          "zh": "完整记录起病时间、体征、建议与转诊去向；不延误诊疗。"
+        }
+      ],
+      "tags": ["red_flags", "safety", "clinic_operations", "documentation"],
+      "difficulty": 1,
+      "domain": "safety",
+      "source": { "type": "pdf", "file": "DHA_TCM_Interview_Bank.pdf", "page": 12 },
+      "updatedAt": "2026-04-13T00:00:00.000Z"
+    }
+  ]
+}
